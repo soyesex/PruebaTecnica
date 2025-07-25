@@ -4,9 +4,9 @@ Bienvenido a Gaming Hub, una aplicación web creada como parte de una prueba té
 
 ## ✨ Sobre el Proyecto
 
-Gaming Hub es una página web dinámica y visualmente atractiva que funciona como un escaparate para videojuegos icónicos. El objetivo era crear una experiencia de usuario inmersiva y pulida, yendo más allá de una simple galería.
+Gaming Hub es una página web dinámica y visualmente atractiva para videojuegos icónicos. El objetivo era crear una experiencia de usuario autentica y pulida, yendo más allá de una simple galería.
 
-La página principal recibe al usuario con una portada animada que lo invita a explorar una selección de juegos presentados en un carrusel interactivo. Cada tarjeta de juego tiene un efecto 3D "pop-out" al pasar el cursor sobre ella. Al hacer clic, el usuario es redirigido a una página de detalle única para cada juego, la cual incluye:
+La página principal recibe al usuario con una portada animada que lo invita a explorar una selección de juegos presentados en un carrusel interactivo. Cada tarjeta de juego tiene un efecto 3D al pasar el cursor sobre ella. Al hacer clic, el usuario es redirigido a una página de detalle única para cada juego, la cual incluye:
 
 - Un tráiler del juego que se reproduce automáticamente.
 - Una descripción detallada.
@@ -76,7 +76,7 @@ Soy Johan, un apasionado por el desarrollo de software y la tecnología. Me enca
 
 ### Habilidades y Destrezas
 * **Creatividad y Conceptualización:** Disfruto generando ideas y definiendo la arquitectura visual y funcional de un proyecto desde cero.
-* **Resiliencia y Resolución de Problemas:** Me considero una persona persistente que no se rinde ante los desafíos técnicos. Disfruto el proceso de depurar código y encontrar soluciones eficientes.
+* **Resiliencia y Resolución de Problemas:** Me considero una persona persistente que no se rinde ante los desafíos técnicos. 
 * **Pasión por el Desarrollo:** Tengo un interés genuino por la programación y me mantengo en un proceso de aprendizaje continuo para mejorar mis habilidades.
 
 ### Oportunidades de Mejora
@@ -89,4 +89,4 @@ En este proyecto, además de las tecnologías mencionadas, utilicé herramientas
 
 Para la realización de este proyecto, utilicé herramientas de Inteligencia Artificial como un asistente de desarrollo. Su rol fue principalmente el de ayudar en la generación de prompts para las imágenes, la depuración de errores puntuales y la aceleración de la escritura de código repetitivo.
 
-Sin embargo, es fundamental destacar que la **conceptualización del proyecto, el diseño visual, la experiencia de usuario, la selección de efectos y la arquitectura de la aplicación** fueron ideas y decisiones propias, producto de mi creatividad y análisis.
+Pero, es importante destacar que la **conceptualización del proyecto, el diseño visual, la experiencia de usuario, la selección de efectos y la arquitectura de la aplicación** fueron ideas y decisiones propias, producto de mi creatividad y análisis.
