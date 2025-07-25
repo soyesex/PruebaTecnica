@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+<body class="bg-gray-900">
+    <section class="h-screen flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-white text-6xl font-bold font-press-start text-neon-blue">GAMING HUB</h1>
+        <p class="text-blue-300 text-xl font-vt323">Donde los pixeles cobran vida.</p>
+      </div>
+    </section>
+    <section class="bg-gray-800 py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-teal-400 mb-12 font-press-start">
+          En la Mira
+        </h2>
+
+        <div id="games-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Los juegos se cargaran aqui dinámicamente -->
+        </div>
+      </div>
+    </section>
+    <script src="src/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "description": "Pequeño proyecto para demostrar mis habilidades en el frontend y backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyesex/PruebaTecnica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soyesex/PruebaTecnica/issues"
+  },
+  "homepage": "https://github.com/soyesex/PruebaTecnica#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
