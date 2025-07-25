@@ -1,6 +1,6 @@
 # 🎮 Gaming Hub
 
-¡Hola! Bienvenido a Gaming Hub, una aplicación web creada como parte de una prueba técnica para demostrar mis habilidades de desarrollo frontend y backend.
+Bienvenido a Gaming Hub, una aplicación web creada como parte de una prueba técnica para demostrar mis habilidades de desarrollo frontend y backend.
 
 ## ✨ Sobre el Proyecto
 
@@ -36,16 +36,13 @@ Toda la aplicación se construyó con un frontend que consume una API local prop
 ## 📸 Vistazo al Proyecto
 
 ### Página Principal (Hero Section)
-*(Aquí puedes agregar una captura de pantalla de la sección principal)*
-`![Hero Section](URL_DE_LA_IMAGEN)`
+<img width="1816" height="953" alt="Image" src="https://github.com/user-attachments/assets/1b834041-6b41-4f29-acf3-b96a7f6ab142" />
 
 ### Sección de Juegos
-*(Aquí puedes agregar una captura de pantalla de la sección de juegos)*
-`![Sección de Juegos](URL_DE_LA_IMAGEN)`
+<img width="1813" height="952" alt="Image" src="https://github.com/user-attachments/assets/d7eff2b4-1368-4e2a-854d-074ebe0dfcde" />
 
 ### Página de Detalle de un Juego
-*(Aquí puedes agregar una captura de pantalla de la página de detalle)*
-`![Página de Detalle](URL_DE_LA_IMAGEN)`
+<img width="1830" height="947" alt="Image" src="https://github.com/user-attachments/assets/042b7108-1351-483c-88a9-33dedbec0869" />
 
 ## 🛠️ Cómo Ejecutar el Proyecto
 
@@ -75,7 +72,7 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
 
 ## 👨‍💻 Sobre Mí
 
-¡Hola! Soy Johan, un apasionado por el desarrollo de software y la tecnología. Me encanta transformar ideas creativas en proyectos funcionales y visualmente atractivos.
+Soy Johan, un apasionado por el desarrollo de software y la tecnología. Me encanta transformar ideas creativas en proyectos funcionales y visualmente atractivos.
 
 ### Habilidades y Destrezas
 * **Creatividad y Conceptualización:** Disfruto generando ideas y definiendo la arquitectura visual y funcional de un proyecto desde cero.
