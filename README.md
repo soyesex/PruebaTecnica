@@ -50,12 +50,12 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+    git clone [https://github.com/soyesex/PruebaTecnica.git](https://github.com/soyesex/PruebaTecnica.git)
     ```
 
 2.  **Navega a la carpeta del proyecto:**
     ```bash
-    cd TU_REPOSITORIO
+    cd PruebaTecnica
     ```
 
 3.  **Instala las dependencias:**
