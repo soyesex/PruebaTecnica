@@ -5,38 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hacemos la peticion a nuestro backend
     fetch('/api/games')
     .then(response => response.json()) // Convertimos la respuesta a JSON
-    .then(data => {
-    // Obtenemos la lista de juegos de la propiedad 'results'
-    const games = data.results;
-    
-    // Filtramos los juegos que tienen imagen y tienen una descripción corta (deck).
-    const filteredGames = games.filter(game => {
-        return game.image && game.deck;
-    })
+    .then(games => {
+        // Limpiamos el contenedor por si acaso
+        gamesContainer.innerHTML = '';
 
-    // Iteramos sobre cada juego y creamos un elemento HTML
-    filteredGames.forEach(game => {
-        const imageUrl = game.image.medium_url;
+        games.forEach(game => {
+            const gameCardHTML = `
+          <a href="game.html?id=${game.id}" class="game-card-link">
+            <div class="game-card">
+                <img src="${game.poster_image}" alt="Póster de ${game.name}">
 
-        // Accedemos a las propiedades: game.name, game.image.medium_url, game.deck (descripción corta)
-        const gameCardHTML = `
-        <div class="game-card">
-            <img class="card-image" src="${imageUrl}" alt="Portada de ${game.name}" >
-            <div class="card-content">
-                <h3 class="card-title">${game.name}</h3>
-                <p class="card-description">
-                ${game.deck}
-                </p>
+                <img class="character-pop" src="${game.character_image}" alt="Personaje de ${game.name}">
             </div>
-        </div>
+          </a>
         `;
-
-        // Añadimos la tarjeta recien creada al contenedor
         gamesContainer.innerHTML += gameCardHTML;
-    });
+        });
     })
-    .catch(error => {
-        console.error('Error al cargar los juegos:', error);
-        gamesContainer.innerHTML = '<p class="text-red-500">Error al cargar los juegos.</p>';
-    });
+    .catch(error => console.error('Error al cargar los juegos; ', error ));
 })

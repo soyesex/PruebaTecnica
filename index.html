@@ -11,19 +11,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 <body class="bg-gray-900">
-    <section class="h-screen flex items-center justify-center">
-      <div class="text-center">
+    <section id="hero" class="h-screen flex items-center justify-center">
+      <div class="relative z-10 text-center">
         <h1 class="text-white text-6xl font-bold font-press-start text-neon-blue">GAMING HUB</h1>
-        <p class="text-blue-300 text-xl font-vt323">Donde los pixeles cobran vida.</p>
+        <p class="text-blue-300 text-xl font-vt323 max-w-2xl mx-auto py-4">
+          Un espacio diseñado para explorar los universos que nos apasionan. Descubre los títulos que están en la mira, revive clásicos y prepárate para los próximos lanzamientos.
+        </p>
+
+        <div class="absolute -bottom-20 left-1/2 -translate-x-1/2 mt-10 animate-bounce">
+          <a href="#games-section">
+            <svg class="w-10 h-10 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
-    <section class="bg-gray-800 py-16">
+    <section id="games-section" class="bg-gray-800 py-16">
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center text-teal-400 mb-12 font-press-start">
-          En la Mira
+        <h2 class="text-4xl font-bold text-center text-white mb-12 font-press-start text-neon-blue">
+          Juegos Destacados
         </h2>
 
-        <div id="games-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div id="games-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4">
           <!-- Los juegos se cargaran aqui dinámicamente -->
         </div>
       </div>

@@ -26,6 +26,10 @@
   --light-green: #b2ff9eff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-press-start {
             font-family: 'Press Start 2P', cursive;
         }
@@ -40,72 +44,113 @@
                          0 0 80px #228dff;
         }
 
+        .text-neon-red {
+          text-shadow:
+            0 0 5px var(--rose),
+            0 0 10px var(--rose),
+            0 0 20px var(--rose);
+        }
+
+        .text-neon-green {
+          text-shadow:
+            0 0 5px var(--turquoise),
+            0 0 10px var(--turquoise),
+            0 0 20px var(--light-green);
+        }
+
+        .text-neon-ice {
+          text-shadow:
+            0 0 5px var(--vivid-sky-blue),
+            0 0 10px var(--vivid-sky-blue),
+            0 0 20px var(--neon-blue);
+        }
+
         /* -- Estilos para el efecto hover de las tarjetas */
         .game-card {
           position: relative; /* Posicionar el contenido encima */
           width: 100%;
-          aspect-ratio: 3/4; /* Mantener una proporcion fija (ancho / alto) */
-          border-radius: 8px;
-          overflow: hidden; /* Oculta lo que se salga de las esquinas redondeadas */
-          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+          max-width: 280px;
+          margin: 0 auto;
+          border-radius: 16px;
           cursor: pointer;
-
-          /* Preparamos el contenedor para la transformacion 3D */
-          transform-style: preserve-3d;
-          transition: transform 0.4s ease;
+          transition: all 0.3s ease;
         }
 
-        /* La imagen de fondo de la tarjeta */
-        .game-card .card-image {
-          position: absolute;
+        /* La imagen de fondo (el poster) */
+        .game-card img:first-child {
           width: 100%;
-          height: 100%;
+          border-radius: 16px;
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
           object-fit: cover;
-          border-radius: 8px;
         }
 
-        /* Contenido (Titulo y Descripcion) */
-        .card-content {
+        /* El degradado */
+        .game-card::before {
+          content: '';
           position: absolute;
           bottom: 0;
-          left: 0;
           width: 100%;
-          padding: 1.5rem;
-          color: white;
-
-          /* Lo movemos hacia afuera en el eje Z para que flote */
-          transform: translateZ(30px);
-          transition: transform 0.4s ease;
-
-          /* Un degradado para que el texto sea legible sobre cualquier imagen */
-          background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+          height: 100%;
+          background-image: linear-gradient(
+          to bottom,
+          transparent 10%,
+          rgba(0, 0, 0, 0.5) 50%,
+          rgba(0, 0, 0, 1) 95%
+          );
+          border-radius: 16px;
+          opacity: 0;
+          transition: all .3s ease;
         }
 
-        .card-title {
-          font-family: 'Press Start 2P', cursive;
-          font-size: 1.5rem;
-          margin-bottom: 0.5rem;
-        }
+        .game-card .character-pop {
+          position: absolute; 
+          width: 85%; 
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: 0 auto; 
 
-        .card-description {
-          font-family: 'VT323', monospace;
-          font-size: 1rem;
-          opacity: 0; /* Oculto por defecto */
-          transition: opacity 0.4s ease;
+          /* La movemos hacia abajo y la hacemos invisible por defecto */
+          transform: translateY(25%);
+          opacity: 0;
+          transition: all .4s ease; 
+          /* Evita que se pueda arrastrar la imagen y arruine el efecto */
+          pointer-events: none;
         }
-
-        /* Interaccion con :hover */
+        
         .game-card:hover {
-          /* La inclinamos en el espacio 3D */
-          transform: perspective(1000px) translateY(-10px); /* Rotamos en dirección opueta para enderezar el texto*/
+          transform: 
+            perspective(250px)
+            rotateX(10deg)
+            translateY(-5%);
         }
 
-        .game-card:hover .card-content {
-          transform: translateZ(60px); /* Rotamos en dirección opuesta para enderezar el texto */
-        }
-
-        .game-card:hover .card-description {
+        .game-card:hover::before {
           opacity: 1;
+        }
+
+        .game-card:hover .character-pop {
+          opacity: 1;
+          transform: translateY(10%); 
+        }
+
+        #hero {
+          position: relative;
+          background-image: url('../assets/images/home.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        #hero::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(17,24,39,0.7);
+          z-index: 1;
         }
 
         

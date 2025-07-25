@@ -1,0 +1,87 @@
+[
+{
+    "id": 1,
+    "name": "Minecraft",
+    "poster_image": "assets/images/minecraft-poster.jpg",
+    "character_image": "assets/images/steve-char.png",
+    "deck": "Explora mundos generados aleatoriamente y construye cosas increíbles, desde las casas más humildes hasta los castillos más grandiosos.",
+    "trailer_id": "1DhWXAiNgfQ",
+    "sound_file": "assets/sounds/minecraft-levelup.mp3"
+  },
+  {
+    "id": 2,
+    "name": "The Legend of Zelda",
+    "poster_image": "assets/images/zelda-poster.jpg",
+    "character_image": "assets/images/link-char.png",
+    "neon_class": "text-neon-green",
+    "deck": "Explora el vasto reino de Hyrule en una peligrosa misión para rescatar a la princesa Zelda del malvado Ganon.",
+    "trailer_id": "uHGShqcAHlQ",
+    "sound_file": "assets/sounds/zelda-secret.mp3"
+  },
+  {
+    "id": 3,
+    "name": "God of War Ragnarök",
+    "poster_image": "assets/images/gow-poster.jpg",
+    "character_image": "assets/images/kratos-char.png",
+    "neon_class": "text-neon-ice",
+    "deck": "Kratos y Atreus deben viajar a cada uno de los Nueve Reinos en busca de respuestas mientras las fuerzas asgardianas se preparan para la guerra.",
+    "trailer_id": "hfJ4Km46A-0",
+    "sound_file": "assets/sounds/kratos-axe-recall.mp3"
+  },
+  {
+    "id": 4,
+    "name": "Cyberpunk 2077",
+    "poster_image": "assets/images/cyberpunk-poster.jpg",
+    "character_image": "assets/images/v-char.png",
+    "deck": "En la peligrosa metrópolis de Night City, eres V, un mercenario cibernético en una lucha a vida o muerte.",
+    "trailer_id": "qIcTM8WXFjk",
+    "sound_file": "assets/sounds/cyberpunk-interface.mp3"
+  },
+  {
+    "id": 5,
+    "name": "Marvel's Spider-Man 2",
+    "poster_image": "assets/images/spiderman-poster.jpg",
+    "character_image": "assets/images/spiderman-char.png",
+    "neon_class": "text-neon-red",
+    "deck": "Peter Parker y Miles Morales regresan para una nueva y emocionante aventura en la aclamada franquicia.",
+    "trailer_id": "HdzlOQoG8TE",
+    "sound_file": "assets/sounds/spiderman-swing.mp3"
+  },
+  {
+    "id": 6,
+    "name": "Ghost of Tsushima",
+    "poster_image": "assets/images/ghost-poster.jpg",
+    "character_image": "assets/images/jin-char.png",
+    "deck": "En el Japón feudal, el guerrero samurái Jin Sakai debe adoptar un nuevo camino, el del Fantasma, para proteger su hogar.",
+    "trailer_id": "iqysmS4lxwQ",
+    "sound_file": "assets/sounds/ghost-sword-slash.mp3"
+  },
+  {
+    "id": 7,
+    "name": "Red Dead Redemption 2",
+    "poster_image": "assets/images/rdr2-poster.jpg",
+    "character_image": "assets/images/arthur-char.png",
+    "deck": "América, 1899. El final de la era del Salvaje Oeste ha comenzado. Arthur Morgan y la pandilla de Van der Linde se ven obligados a huir.",
+    "trailer_id": "MyaYlbizpvs",
+    "sound_file": "assets/sounds/rdr2-deadeye.mp3"
+  },
+  {
+    "id": 8,
+    "name": "Elden Ring",
+    "poster_image": "assets/images/eldenring-poster.jpg",
+    "character_image": "assets/images/tarnished-char.png",
+    "deck": "El Sinluz debe levantarse y ser guiado por la gracia para empuñar el poder del Círculo de Elden y convertirse en un Señor del Círculo.",
+    "trailer_id": "E3Huy2cdih0",
+    "sound_file": "assets/sounds/eldenring-grace.mp3"
+  },
+  
+   {
+    "id": 9,
+    "name": "Mass Effect",
+    "poster_image": "assets/images/masseffect-poster.jpg",
+    "character_image": "assets/images/shepard-char.png",
+    "deck": "Como el Comandante Shepard, lideras a un escuadrón de élite en una heroica saga de acción y aventura a través de la galaxia para detener a una antigua amenaza.",
+    "trailer_id": "uG8V9dRqSsw",
+    "sound_file": "assets/sounds/masseffect-galaxy-map.mp3"
+  }
+]
